@@ -1,0 +1,74 @@
+html, body {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+#root{ 
+    width: 100%;
+    height: 100%;
+    background-image: #fff;
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el div */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+#cavecera{
+   display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center;
+  gap: 60%;
+
+    
+
+}
+#principal{
+   
+}
+#piedepagina{
+}
+#redes{
+    display: flex;
+    padding: 30px 10px;
+    gap: 40px;
+}
+#face{
+    width: 32px; /* Ancho de la imagen de icono */
+    height: 32px; /* Altura de la imagen de icono */
+    background-image: url('facebook\(2\).png'); /* Ruta de la imagen de icono */
+    background-size: cover; /* Ajustar el tamaño de la imagen */
+}
+#insta{
+    width: 32px; /* Ancho de la imagen de icono */
+    height: 32px; /* Altura de la imagen de icono */
+    background-image: url('instagram\(1\).png'); /* Ruta de la imagen de icono */
+    background-size: cover; /* Ajustar el tamaño de la imagen */
+}
+#wpp{
+    width: 32px; /* Ancho de la imagen de icono */
+    height: 32px; /* Altura de la imagen de icono */
+    background-image: url('whatsapp\(1\).png'); /* Ruta de la imagen de icono */
+    background-size: cover; /* Ajustar el tamaño de la imagen */
+}
+#articulos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas de igual ancho */
+    grid-template-rows: auto; /* Altura automática para las filas */
+    gap: 10px; /* Espacio entre celdas */
+    
+  }
+  
+  /* Estilo para las imágenes */
+  #img1 img,
+  #img2 img,
+  #img3 img {
+    max-width: 100%; /* Establece un ancho máximo para las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto original */
+    border-radius: 12px;
+  }
+#fotomain{
+    border-radius: 10px;
+}
+#imagenlogo{
+    border-radius: 10px;
+}
