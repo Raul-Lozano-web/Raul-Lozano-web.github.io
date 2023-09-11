@@ -23,7 +23,6 @@ html, body {
 
 }
 #principal{
-   
 }
 #piedepagina{
 }
@@ -63,7 +62,7 @@ html, body {
   #img2 img,
   #img3 img {
     max-width: 100%; /* Establece un ancho máximo para las imágenes */
-    height: auto; /* Mantiene la proporción de aspecto original */
+    height: 40vh; /* Mantiene la proporción de aspecto original */
     border-radius: 12px;
   }
 #fotomain{
@@ -71,4 +70,7 @@ html, body {
 }
 #imagenlogo{
     border-radius: 10px;
+}
+#www{
+    height:25vh;
 }
